@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E08462F81E52557C00FA4F42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E08462F71E52557C00FA4F42 /* main.m */; };
+		E08462FB1E52557C00FA4F42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E08462FA1E52557C00FA4F42 /* AppDelegate.m */; };
+		E08462FE1E52557C00FA4F42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E08462FD1E52557C00FA4F42 /* ViewController.m */; };
+		E08463011E52557C00FA4F42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E08462FF1E52557C00FA4F42 /* Main.storyboard */; };
+		E08463031E52557C00FA4F42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E08463021E52557C00FA4F42 /* Assets.xcassets */; };
+		E08463061E52557C00FA4F42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E08463041E52557C00FA4F42 /* LaunchScreen.storyboard */; };
+		E08463111E52557D00FA4F42 /* INT_BezierInterpolationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E08463101E52557D00FA4F42 /* INT_BezierInterpolationTests.m */; };
+		E084631C1E52557D00FA4F42 /* INT_BezierInterpolationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E084631B1E52557D00FA4F42 /* INT_BezierInterpolationUITests.m */; };
+		E0994FBB1E5257C400A4AABE /* BezierInterpolation.m in Sources */ = {isa = PBXBuildFile; fileRef = E0994FBA1E5257C400A4AABE /* BezierInterpolation.m */; };
+		E0994FBE1E52649F00A4AABE /* PointWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E0994FBD1E52649F00A4AABE /* PointWrapper.m */; };
+		E0994FC11E5275C500A4AABE /* SineMover.m in Sources */ = {isa = PBXBuildFile; fileRef = E0994FC01E5275C500A4AABE /* SineMover.m */; };
+		E0994FC41E52799200A4AABE /* MathHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E0994FC31E52799200A4AABE /* MathHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E084630D1E52557D00FA4F42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E08462EB1E52557C00FA4F42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E08462F21E52557C00FA4F42;
+			remoteInfo = INT_BezierInterpolation;
+		};
+		E08463181E52557D00FA4F42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E08462EB1E52557C00FA4F42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E08462F21E52557C00FA4F42;
+			remoteInfo = INT_BezierInterpolation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E08462F31E52557C00FA4F42 /* INT_BezierInterpolation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = INT_BezierInterpolation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E08462F71E52557C00FA4F42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E08462F91E52557C00FA4F42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E08462FA1E52557C00FA4F42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E08462FC1E52557C00FA4F42 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E08462FD1E52557C00FA4F42 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E08463001E52557C00FA4F42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E08463021E52557C00FA4F42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E08463051E52557C00FA4F42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E08463071E52557D00FA4F42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E084630C1E52557D00FA4F42 /* INT_BezierInterpolationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = INT_BezierInterpolationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E08463101E52557D00FA4F42 /* INT_BezierInterpolationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = INT_BezierInterpolationTests.m; sourceTree = "<group>"; };
+		E08463121E52557D00FA4F42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E08463171E52557D00FA4F42 /* INT_BezierInterpolationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = INT_BezierInterpolationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E084631B1E52557D00FA4F42 /* INT_BezierInterpolationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = INT_BezierInterpolationUITests.m; sourceTree = "<group>"; };
+		E084631D1E52557D00FA4F42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0994FB91E5257C400A4AABE /* BezierInterpolation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierInterpolation.h; sourceTree = "<group>"; };
+		E0994FBA1E5257C400A4AABE /* BezierInterpolation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierInterpolation.m; sourceTree = "<group>"; };
+		E0994FBC1E52649F00A4AABE /* PointWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointWrapper.h; sourceTree = "<group>"; };
+		E0994FBD1E52649F00A4AABE /* PointWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointWrapper.m; sourceTree = "<group>"; };
+		E0994FBF1E5275C500A4AABE /* SineMover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SineMover.h; sourceTree = "<group>"; };
+		E0994FC01E5275C500A4AABE /* SineMover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SineMover.m; sourceTree = "<group>"; };
+		E0994FC21E52799200A4AABE /* MathHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathHelper.h; sourceTree = "<group>"; };
+		E0994FC31E52799200A4AABE /* MathHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E08462F01E52557C00FA4F42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E08463091E52557D00FA4F42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E08463141E52557D00FA4F42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E08462EA1E52557C00FA4F42 = {
+			isa = PBXGroup;
+			children = (
+				E08462F51E52557C00FA4F42 /* INT_BezierInterpolation */,
+				E084630F1E52557D00FA4F42 /* INT_BezierInterpolationTests */,
+				E084631A1E52557D00FA4F42 /* INT_BezierInterpolationUITests */,
+				E08462F41E52557C00FA4F42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E08462F41E52557C00FA4F42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E08462F31E52557C00FA4F42 /* INT_BezierInterpolation.app */,
+				E084630C1E52557D00FA4F42 /* INT_BezierInterpolationTests.xctest */,
+				E08463171E52557D00FA4F42 /* INT_BezierInterpolationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E08462F51E52557C00FA4F42 /* INT_BezierInterpolation */ = {
+			isa = PBXGroup;
+			children = (
+				E08462F91E52557C00FA4F42 /* AppDelegate.h */,
+				E08462FA1E52557C00FA4F42 /* AppDelegate.m */,
+				E08462FC1E52557C00FA4F42 /* ViewController.h */,
+				E08462FD1E52557C00FA4F42 /* ViewController.m */,
+				E08462FF1E52557C00FA4F42 /* Main.storyboard */,
+				E08463021E52557C00FA4F42 /* Assets.xcassets */,
+				E08463041E52557C00FA4F42 /* LaunchScreen.storyboard */,
+				E08463071E52557D00FA4F42 /* Info.plist */,
+				E08462F61E52557C00FA4F42 /* Supporting Files */,
+				E0994FB91E5257C400A4AABE /* BezierInterpolation.h */,
+				E0994FBA1E5257C400A4AABE /* BezierInterpolation.m */,
+				E0994FBC1E52649F00A4AABE /* PointWrapper.h */,
+				E0994FBD1E52649F00A4AABE /* PointWrapper.m */,
+				E0994FBF1E5275C500A4AABE /* SineMover.h */,
+				E0994FC01E5275C500A4AABE /* SineMover.m */,
+				E0994FC21E52799200A4AABE /* MathHelper.h */,
+				E0994FC31E52799200A4AABE /* MathHelper.m */,
+			);
+			path = INT_BezierInterpolation;
+			sourceTree = "<group>";
+		};
+		E08462F61E52557C00FA4F42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E08462F71E52557C00FA4F42 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E084630F1E52557D00FA4F42 /* INT_BezierInterpolationTests */ = {
+			isa = PBXGroup;
+			children = (
+				E08463101E52557D00FA4F42 /* INT_BezierInterpolationTests.m */,
+				E08463121E52557D00FA4F42 /* Info.plist */,
+			);
+			path = INT_BezierInterpolationTests;
+			sourceTree = "<group>";
+		};
+		E084631A1E52557D00FA4F42 /* INT_BezierInterpolationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E084631B1E52557D00FA4F42 /* INT_BezierInterpolationUITests.m */,
+				E084631D1E52557D00FA4F42 /* Info.plist */,
+			);
+			path = INT_BezierInterpolationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E08462F21E52557C00FA4F42 /* INT_BezierInterpolation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E08463201E52557D00FA4F42 /* Build configuration list for PBXNativeTarget "INT_BezierInterpolation" */;
+			buildPhases = (
+				E08462EF1E52557C00FA4F42 /* Sources */,
+				E08462F01E52557C00FA4F42 /* Frameworks */,
+				E08462F11E52557C00FA4F42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = INT_BezierInterpolation;
+			productName = INT_BezierInterpolation;
+			productReference = E08462F31E52557C00FA4F42 /* INT_BezierInterpolation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E084630B1E52557D00FA4F42 /* INT_BezierInterpolationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E08463231E52557D00FA4F42 /* Build configuration list for PBXNativeTarget "INT_BezierInterpolationTests" */;
+			buildPhases = (
+				E08463081E52557D00FA4F42 /* Sources */,
+				E08463091E52557D00FA4F42 /* Frameworks */,
+				E084630A1E52557D00FA4F42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E084630E1E52557D00FA4F42 /* PBXTargetDependency */,
+			);
+			name = INT_BezierInterpolationTests;
+			productName = INT_BezierInterpolationTests;
+			productReference = E084630C1E52557D00FA4F42 /* INT_BezierInterpolationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E08463161E52557D00FA4F42 /* INT_BezierInterpolationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E08463261E52557D00FA4F42 /* Build configuration list for PBXNativeTarget "INT_BezierInterpolationUITests" */;
+			buildPhases = (
+				E08463131E52557D00FA4F42 /* Sources */,
+				E08463141E52557D00FA4F42 /* Frameworks */,
+				E08463151E52557D00FA4F42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E08463191E52557D00FA4F42 /* PBXTargetDependency */,
+			);
+			name = INT_BezierInterpolationUITests;
+			productName = INT_BezierInterpolationUITests;
+			productReference = E08463171E52557D00FA4F42 /* INT_BezierInterpolationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E08462EB1E52557C00FA4F42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "3spin GmbH & Co. KG";
+				TargetAttributes = {
+					E08462F21E52557C00FA4F42 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2H4TAT5CA8;
+						ProvisioningStyle = Automatic;
+					};
+					E084630B1E52557D00FA4F42 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2H4TAT5CA8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E08462F21E52557C00FA4F42;
+					};
+					E08463161E52557D00FA4F42 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2H4TAT5CA8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E08462F21E52557C00FA4F42;
+					};
+				};
+			};
+			buildConfigurationList = E08462EE1E52557C00FA4F42 /* Build configuration list for PBXProject "INT_BezierInterpolation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E08462EA1E52557C00FA4F42;
+			productRefGroup = E08462F41E52557C00FA4F42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E08462F21E52557C00FA4F42 /* INT_BezierInterpolation */,
+				E084630B1E52557D00FA4F42 /* INT_BezierInterpolationTests */,
+				E08463161E52557D00FA4F42 /* INT_BezierInterpolationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E08462F11E52557C00FA4F42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E08463061E52557C00FA4F42 /* LaunchScreen.storyboard in Resources */,
+				E08463031E52557C00FA4F42 /* Assets.xcassets in Resources */,
+				E08463011E52557C00FA4F42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E084630A1E52557D00FA4F42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E08463151E52557D00FA4F42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E08462EF1E52557C00FA4F42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0994FBE1E52649F00A4AABE /* PointWrapper.m in Sources */,
+				E08462FE1E52557C00FA4F42 /* ViewController.m in Sources */,
+				E0994FBB1E5257C400A4AABE /* BezierInterpolation.m in Sources */,
+				E08462FB1E52557C00FA4F42 /* AppDelegate.m in Sources */,
+				E0994FC41E52799200A4AABE /* MathHelper.m in Sources */,
+				E0994FC11E5275C500A4AABE /* SineMover.m in Sources */,
+				E08462F81E52557C00FA4F42 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E08463081E52557D00FA4F42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E08463111E52557D00FA4F42 /* INT_BezierInterpolationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E08463131E52557D00FA4F42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E084631C1E52557D00FA4F42 /* INT_BezierInterpolationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E084630E1E52557D00FA4F42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E08462F21E52557C00FA4F42 /* INT_BezierInterpolation */;
+			targetProxy = E084630D1E52557D00FA4F42 /* PBXContainerItemProxy */;
+		};
+		E08463191E52557D00FA4F42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E08462F21E52557C00FA4F42 /* INT_BezierInterpolation */;
+			targetProxy = E08463181E52557D00FA4F42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E08462FF1E52557C00FA4F42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E08463001E52557C00FA4F42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E08463041E52557C00FA4F42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E08463051E52557C00FA4F42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E084631E1E52557D00FA4F42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E084631F1E52557D00FA4F42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E08463211E52557D00FA4F42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2H4TAT5CA8;
+				INFOPLIST_FILE = INT_BezierInterpolation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.threespin.INT-BezierInterpolation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E08463221E52557D00FA4F42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2H4TAT5CA8;
+				INFOPLIST_FILE = INT_BezierInterpolation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.threespin.INT-BezierInterpolation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E08463241E52557D00FA4F42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2H4TAT5CA8;
+				INFOPLIST_FILE = INT_BezierInterpolationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.threespin.INT-BezierInterpolationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/INT_BezierInterpolation.app/INT_BezierInterpolation";
+			};
+			name = Debug;
+		};
+		E08463251E52557D00FA4F42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2H4TAT5CA8;
+				INFOPLIST_FILE = INT_BezierInterpolationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.threespin.INT-BezierInterpolationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/INT_BezierInterpolation.app/INT_BezierInterpolation";
+			};
+			name = Release;
+		};
+		E08463271E52557D00FA4F42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2H4TAT5CA8;
+				INFOPLIST_FILE = INT_BezierInterpolationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.threespin.INT-BezierInterpolationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = INT_BezierInterpolation;
+			};
+			name = Debug;
+		};
+		E08463281E52557D00FA4F42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2H4TAT5CA8;
+				INFOPLIST_FILE = INT_BezierInterpolationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.threespin.INT-BezierInterpolationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = INT_BezierInterpolation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E08462EE1E52557C00FA4F42 /* Build configuration list for PBXProject "INT_BezierInterpolation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E084631E1E52557D00FA4F42 /* Debug */,
+				E084631F1E52557D00FA4F42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E08463201E52557D00FA4F42 /* Build configuration list for PBXNativeTarget "INT_BezierInterpolation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E08463211E52557D00FA4F42 /* Debug */,
+				E08463221E52557D00FA4F42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E08463231E52557D00FA4F42 /* Build configuration list for PBXNativeTarget "INT_BezierInterpolationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E08463241E52557D00FA4F42 /* Debug */,
+				E08463251E52557D00FA4F42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E08463261E52557D00FA4F42 /* Build configuration list for PBXNativeTarget "INT_BezierInterpolationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E08463271E52557D00FA4F42 /* Debug */,
+				E08463281E52557D00FA4F42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E08462EB1E52557C00FA4F42 /* Project object */;
+}
